@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teachable Machine Image Model</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Teachable Machine Image Model</h1>
+        <h2>Check which of the three american muscle cars it is</h2>
+        <h2>chevrolet camaro, ford mustang or dodge challenger
+        </h2>
+        <button type="button" onclick="init()">Start</button>
+        <div class="image-screen-container" id="webcam-container"></div>
+        <div class="pie-chart">
+            <div id="label-container"></div>
+        </div>
+    </div>
+</body>
+</html>
